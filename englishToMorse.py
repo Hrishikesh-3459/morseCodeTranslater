@@ -15,16 +15,17 @@ MORSE_CODE_DICT = { 'A':'.-', 'B':'-...',
                         '7':'--...', '8':'---..', '9':'----.', 
                         '0':'-----', ', ':'--..--', '.':'.-.-.-', 
                         '?':'..--..', '/':'-..-.', '-':'-....-', 
-                        '(':'-.--.', ')':'-.--.-', "'" : '.----.'} 
-
+                        '(':'-.--.', ')':'-.--.-', "'" : '.----.',
+                        '&':'.-...','@':'.--.-.',':':'---...',
+                        '!':'-.-.--','+':'.-.-.','=':'-...-', ',' : '--..--'} 
 
 # Function to convert English letters to Morse
 def englishToMorse(s): 
-    # Separating letter with spaces and words with tabs
+    # Separating letter with spaces and words with forward slash
     ans = []
     for i in s:
         if i == " ":
-            ans.append('\t')
+            ans.append('/')
         elif i.upper() not in MORSE_CODE_DICT:
             return -1
         else:
@@ -35,17 +36,21 @@ def englishToMorse(s):
 
 # Function to convert Morse to English
 def morseToEnglish(s):
-    eng_dict = {} # Creating a new dictionary, which maps morse code to letters
+    # Creating a new dictionary, which maps morse code to letters
+    eng_dict = {} 
     for i in MORSE_CODE_DICT:
-        eng_dict[MORSE_CODE_DICT[i]] = i
-    words = s.split('   ') # Separating letter with spaces and words with tabs
+        eng_dict[MORSE_CODE_DICT[i]] = i.lower()
+    # Separating letter with spaces and words with forward slash
+    words = s.split('/') 
     ans = []
     for i in words:
         letter = i.split()
         for j in letter:
             ans.append(eng_dict[j])
         ans.append(' ')
-    return ''.join(ans)
+    fin = ''.join(ans)
+    # Design Decision here
+    return fin.capitalize()
     
 
 # Error Handling for the choice
