@@ -56,7 +56,7 @@ def morseToEnglish():
                 ans.append(eng_dict[j])
             ans.append(' ')
         fin = ''.join(ans)
-        return render_template("morse_to_eng_ans.html", ans = fin.title())
+        return render_template("morse_to_eng_ans.html", ans = fin.title(), inp = s)
     
 @app.route('/convert_eng_to_morse', methods=["GET", "POST"])
 def convert_eng_to_morse():
@@ -71,4 +71,4 @@ def convert_eng_to_morse():
             else:
                 ans.append(MORSE_CODE_DICT[i.upper()])
         letters = ' '.join(ans)
-        return render_template("eng_to_morse_ans.html", ans = letters)
+        return render_template("eng_to_morse_ans.html", ans = letters, inp = s)
