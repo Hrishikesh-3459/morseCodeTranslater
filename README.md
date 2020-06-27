@@ -84,6 +84,6 @@ In morse code : The letters are separated by white-spaces and the words are sepa
 
 * **Hrishikesh Mulkutkar**
 
-* **Adithya Neelakanthan**
+* **Adithya Neelakantan**
 
 * **Ayush Kapasi**
