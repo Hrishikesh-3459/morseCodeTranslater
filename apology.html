@@ -1,0 +1,51 @@
+<!-- Webpage to show an error message when the user provides invalid or no input at all -->
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>
+            Error!
+        </title>
+        <style>
+            /* Class for the "whoops" at the top */
+            .heading
+            {
+                color : rgb(179, 42, 83);
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+                text-align: center; 
+                /* padding-top: 50px; */
+                font-size: 0.5in; 
+                
+            }
+            /* Class for the image */
+            .container
+            {
+                position: relative;
+                text-align: center;
+                color: white;
+            }
+            /* Class for the text that appears over the image */
+            .bottom-right {
+                position: absolute;
+                bottom: 8px;
+                right: 465px;
+                font-size: x-large;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                color: black;
+            }
+        </style>
+    </head>
+    <body style='background-color: rgb(32, 204, 204)'>
+
+        <div class = "container">
+
+            <h1 class = "heading">Whoops</h1>
+
+            <img src= "/static/dog.jpg" alt= "Picture of a dog" style="width:720px;height:720px;" />
+            <!-- The message that appears on the bottom of the image is dependant on the type of error. -->
+            <div class = "bottom-right">{{ inp }}</div> 
+
+        </div>
+    </body>
+</html>
+
