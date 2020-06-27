@@ -1,6 +1,6 @@
 # Morse Code Translator
 
-A web-bases Morse Code Translater
+A web-based Morse Code Translater
 
 ## Getting Started
 
