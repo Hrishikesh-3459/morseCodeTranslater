@@ -31,7 +31,12 @@ $ source venv/bin/activate
 ##### Steps for installing Flask on windows:
 
 ```
-ayush
+$ pip3 install virtualenv
+$ mkdir morseCodeTranslator
+$ cd morseCodeTranslator
+$ py -3 -m venv venv
+$ venv\Scripts\activate
+(venv) $ pip3 install flask
 ```
 
 ### Folders
@@ -51,14 +56,14 @@ ayush
 Type all of this in the terminal
 
 ```
-$ export FLASK_APP=my_new_flask_app.py
+$ export FLASK_APP=app.py
 $ flask run
 ```
 
 ##### For running it on Windows
 
 ```
-ayush
+$ flask run
 ````
 
 Visit http://127.0.0.1:5000 to see the app running
@@ -87,3 +92,4 @@ In morse code : The letters are separated by white-spaces and the words are sepa
 * **Adithya Neelakantan**
 
 * **Ayush Kapasi**
+
