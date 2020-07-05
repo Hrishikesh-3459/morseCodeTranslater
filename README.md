@@ -74,6 +74,13 @@ The usage is pretty straightforward and the step by step instructions and provid
 
 In morse code : The letters are separated by white-spaces and the words are separated by forward-slashes.
 
+## Screenshots
+
+### Homepage
+
+![Morse1](https://user-images.githubusercontent.com/51927760/86534023-f3cec980-bef2-11ea-9eb2-0928bcbd618a.png)
+
+
 ## Built with
 
 * [Python](https://www.python.org/) - Programming Language used
