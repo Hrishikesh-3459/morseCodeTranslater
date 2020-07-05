@@ -84,6 +84,13 @@ In morse code : The letters are separated by white-spaces and the words are sepa
 
 ![Screenshot 2020-07-05 at 18 06 40](https://user-images.githubusercontent.com/51927760/86534130-7fe0f100-bef3-11ea-8936-77cdc67b3211.png)
 
+### English to Morse Answer
+
+![eng_to_morse_ans](https://user-images.githubusercontent.com/51927760/86534172-df3f0100-bef3-11ea-80ca-c1937fff5fe8.png)
+
+### Morse to English Answer
+
+![Morse_to_eng](https://user-images.githubusercontent.com/51927760/86534168-d51d0280-bef3-11ea-94ed-4e02625e5437.png)
 
 ## Built with
 
