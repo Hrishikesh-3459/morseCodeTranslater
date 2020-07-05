@@ -14,7 +14,7 @@ Please make sure to do **all** of this before you run the code.
 
 ### Installing
 
-##### Steps for installing **Flask** on Mac:
+##### Steps for installing Flask on Mac:
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install flask.
 
@@ -28,7 +28,7 @@ $ virtualenv venv --system-site-packages
 $ source venv/bin/activate
 (venv) $ pip3 install Flask
 ```
-##### Steps for installing **Flask** on windows:
+##### Steps for installing Flask on windows:
 
 ```
 $ pip3 install virtualenv
