@@ -70,7 +70,7 @@ Visit http://127.0.0.1:5000 to see the app running
 
 ## Usage
 
-The usage is pretty straightforward and the step by step instructions and provided on the website
+The usage is pretty straightforward and the step by step instructions are provided on the website
 
 In morse code : The letters are separated by white-spaces and the words are separated by forward-slashes.
 
@@ -79,6 +79,10 @@ In morse code : The letters are separated by white-spaces and the words are sepa
 ### Homepage
 
 ![Morse1](https://user-images.githubusercontent.com/51927760/86534023-f3cec980-bef2-11ea-9eb2-0928bcbd618a.png)
+
+### English to Morse
+
+![Screenshot 2020-07-05 at 18 06 40](https://user-images.githubusercontent.com/51927760/86534130-7fe0f100-bef3-11ea-8936-77cdc67b3211.png)
 
 
 ## Built with
