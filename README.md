@@ -97,7 +97,7 @@ In morse code : The letters are separated by white-spaces and the words are sepa
 
 * **Hrishikesh Mulkutkar**
 
-* **Adithya Neelakantan**
+* **Adithya Neelakantan** @neelstrongarm
 
-* **Ayush Kapasi**
+* **Ayush Kapasi** @kapasi
 
