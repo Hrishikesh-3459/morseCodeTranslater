@@ -1,6 +1,6 @@
 # Morse Code Translator
 
-A web-based Morse Code Translater
+A web-based Morse Code Translater that converts english text and punctuation symbols into morse code and vice-versa with the letters being separated by a space, and words being separated by a '/'.
 
 ## Getting Started
 
