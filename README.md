@@ -95,9 +95,8 @@ In morse code : The letters are separated by white-spaces and the words are sepa
 
 ## Authors
 
-* **Hrishikesh Mulkutkar**
+* [**Hrishikesh Mulkutkar**](https://github.com/Hrishikesh-3459)
 
-* **Adithya Neelakantan**  
+* [**Adithya Neelakantan**](https://github.com/neelstrongarm)
 
-* **Ayush Kapasi**  
-
+* [**Ayush Kapasi**](https://github.com/kapasi)
