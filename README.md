@@ -2,6 +2,8 @@
 
 A web-based Morse Code Translater that converts english text and punctuation symbols into morse code and vice-versa with the letters being separated by a space, and words being separated by a '/'.
 
+View the project: https://eflask44-app.herokuapp.com/
+
 ## Getting Started
 
 Please make sure to do **all** of this before you run the code.
@@ -91,6 +93,8 @@ In morse code : The letters are separated by white-spaces and the words are sepa
 * HTML - Markup Language used
 
 * CSS - Style Sheet Language used
+
+* [Heroku](https://www.heroku.com/home) - Cloud Platform App used to Deploy the Project
 
 
 ## Authors
